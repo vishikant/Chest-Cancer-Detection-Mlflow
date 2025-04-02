@@ -69,3 +69,72 @@ Use `tf.config.run_functions_eagerly` instead of the experimental version.]
 [2025-04-02 17:23:20,217: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-04-02 18:13:29,701: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:13:29,703: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:13:29,703: INFO: common: created directory at: artifacts]
+[2025-04-02 18:13:29,891: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-02 18:17:15,158: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:17:15,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:17:15,161: INFO: common: created directory at: artifacts]
+[2025-04-02 18:17:15,269: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-02 18:17:20,848: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:17:20,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:17:20,851: INFO: common: created directory at: artifacts]
+[2025-04-02 18:17:20,934: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-02 18:20:27,670: INFO: stage_04_model_evaluation: *******************]
+[2025-04-02 18:20:27,670: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-04-02 18:20:27,671: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:20:27,672: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:20:27,672: INFO: common: created directory at: artifacts]
+[2025-04-02 18:20:27,821: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-02 18:20:36,774: INFO: common: json file saved at: scores.json]
+[2025-04-02 18:20:36,774: INFO: common: json file saved at: scores.json]
+[2025-04-02 18:20:36,774: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-04-02 18:21:50,902: WARNING: deprecation: From /Users/vaishalikant/Downloads/data science project/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/src/cnnClassifier/pipeline/stage_03_model_trainer.py:5: experimental_run_functions_eagerly (from tensorflow.python.eager.polymorphic_function.eager_function_run) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.run_functions_eagerly` instead of the experimental version.]
+[2025-04-02 18:21:51,176: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-04-02 18:21:51,177: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:21:51,179: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:21:51,179: INFO: common: created directory at: artifacts]
+[2025-04-02 18:21:51,179: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-04-02 18:21:51,179: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-02 18:22:09,741: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-04-02 18:22:10,000: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-04-02 18:22:10,000: INFO: main: *******************]
+[2025-04-02 18:22:10,000: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-04-02 18:22:10,001: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:22:10,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:22:10,002: INFO: common: created directory at: artifacts]
+[2025-04-02 18:22:10,002: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-04-02 18:22:10,220: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-02 18:22:10,299: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-02 18:22:10,347: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-04-02 18:22:10,347: INFO: main: *******************]
+[2025-04-02 18:22:10,347: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-04-02 18:22:10,348: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:22:10,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:22:10,350: INFO: common: created directory at: artifacts]
+[2025-04-02 18:22:10,350: INFO: common: created directory at: artifacts/training]
+[2025-04-02 18:22:10,440: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-02 18:23:41,128: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-04-02 18:23:41,173: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-04-02 18:23:41,174: INFO: main: *******************]
+[2025-04-02 18:23:41,174: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-04-02 18:23:41,175: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-04-02 18:23:41,176: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-04-02 18:23:41,176: INFO: common: created directory at: artifacts]
+[2025-04-02 18:23:41,249: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-04-02 18:23:50,879: INFO: common: json file saved at: scores.json]
+[2025-04-02 18:23:50,879: INFO: common: json file saved at: scores.json]
+[2025-04-02 18:23:50,879: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
